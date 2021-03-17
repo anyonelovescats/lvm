@@ -12,24 +12,28 @@
                vg: dbvg
                lv: db00
                size: 2G
+               resizefs: true
 
         - name: db01 lvm creation
           lvol:
                vg: dbvg
                lv: db01
                size: 2G
+               resizefs: true
 
         - name: db02 lvm creation
           lvol:
                vg: dbvg
                lv: db02
                size: 2G
+               resizefs: true
 
         - name: db03 lvm creation
           lvol:
                vg: dbvg
                lv: db03
                size: 2G
+               resizefs: true
 
         - name: create file system for db00
           filesystem:
